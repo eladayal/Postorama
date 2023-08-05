@@ -28,7 +28,7 @@ CREATE DATABASE postorama;
 ```
    exit mysql shell, Navigate to the directory where your MySQL dump file is located, and import our dump posts file to our new database (The file is inside the root project folder as posts.sql)
 ```sh
-mysql -u your_username -p your_database_name < poata.sql
+mysql -u your_username -p your_database_name < poats.sql
 ```
  2. now lets run our backend (after making sure your in the root project directory) run command: 
 ```sh
